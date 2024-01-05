@@ -48,7 +48,7 @@ func New(ifi *net.Interface, p net.PacketConn) (*Client, error) {
 	// Check for usable IPv4 addresses for the Client
 	addrs, err := ifi.Addrs()
 	if err != nil {
-		addrs = []netip.Addr{netip.AddrFrom4([4]byte{0, 0, 0, 0})}
+		addrs = []net.Addr{}
 	}
 
 	ipaddrs := make([]netip.Addr, len(addrs))

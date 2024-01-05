@@ -10,7 +10,7 @@ import (
 	"net/netip"
 	"time"
 
-	"github.com/mdlayher/arp"
+	"github.com/yyang13/arp"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"net"
 	"net/netip"
 
-	"github.com/mdlayher/arp"
+	"github.com/yyang13/arp"
 	"github.com/mdlayher/ethernet"
 )
 
